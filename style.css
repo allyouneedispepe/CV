@@ -1,0 +1,113 @@
+@import url('http://fonts.googleeapis.com/css2?family=Poppins:wght@300;@400;@500;@600;@700;@800;@900&display=swap');
+*{
+    margin: 0%;
+    font-family: 'Poppins', 'Montserrat', 'Roboto', sans-serif; 
+    background-color: var(--bg-color);
+    
+}
+:root {
+    --bg-color: #081b29;
+    --second-bg-color: #112e42;
+    --text-color: white;
+    --main-color:#00abf0;
+}
+.header{
+    color: var(--text-color);
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.jarm:hover{
+    color: greenyellow;
+    transition: 100ms;
+}
+.menu a{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    text-decoration: none;
+    margin: 10px;
+}
+.menu a:hover{
+    color: greenyellow;
+    transition: 150ms;
+}
+#myName{
+    color: var(--text-color);
+    margin: 15px;
+}
+#iDo{
+    color: var(--main-color);
+    margin: 15px;
+}
+#firstCopy{
+    color: var(--text-color);
+    margin: 15px;
+}
+
+/* El resto de las reglas CSS se mantienen igual */
+.jarm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+.firstCopy&myPhoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#myName,
+#iDo,
+#firstCopy {
+    width: 100%;
+    text-align: start;
+}
+
+.icons {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+
+.icono-enlace {
+    font-size: 35px;
+    color: var(--main-color); /* Color del icono, puedes cambiarlo a tu gusto */
+    margin: 20px;
+    text-decoration: none;
+    transition: color 0.3s; /* Transición suave del color al hacer hover */
+}
+
+.icono-enlace:hover {
+    color: greenyellow; /* Color del icono al hacer hover */
+}
+
+.myPhoto {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    /*background-color: var(--main-color);*/
+    position: relative;
+}
+
+.myPhoto img {
+    width: 100%;
+    height: auto;
+    /*mix-blend-mode: multiply;*/
+}
+/*
+.myPhoto::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(ellipse at center, transparent 70%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0.6));
+    z-index: 1;
+}
+*/
+
